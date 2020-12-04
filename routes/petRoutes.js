@@ -3,13 +3,13 @@ const { Pet } = require('../models')
 
 router.get('/pet', (req, res) => {
   Pet.findAll()
-    .then(movies => res.json(pets))
+    .then(pets => res.json(pets))
     .catch(err => console.log(err))
 })
 
 router.post('/pet', (req, res) => {
   Pet.create(req.body)
-    .then(movie => res.json(pet))
+    .then(pet => res.json(pet))
     .catch(err => console.log(err))
 })
 

@@ -3,13 +3,13 @@ const { Owner } = require('../models')
 
 router.get('/owners', (req, res) => {
   Owner.findAll()
-    .then(movies => res.json(owners))
+    .then(owners => res.json(owners))
     .catch(err => console.log(err))
 })
 
 router.post('/owners', (req, res) => {
   Owner.create(req.body)
-    .then(movie => res.json(owner))
+    .then(owner => res.json(owner))
     .catch(err => console.log(err))
 })
 
