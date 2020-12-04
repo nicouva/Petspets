@@ -1,0 +1,26 @@
+{
+  "name": "Petspets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicouva/Petspets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicouva/Petspets/issues"
+  },
+  "homepage": "https://github.com/nicouva/Petspets#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
