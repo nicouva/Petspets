@@ -11,7 +11,7 @@ Owner.init({
   email: {
     type: DataTypes.STRING,
     allowNull: false
-  }
+  },
   phone: {
     type: DataTypes.INTEGER,
     allowNull: false
